@@ -14,12 +14,10 @@ Affiliation: [Intelligent Perception Lab](https://ustc-ip-lab.github.io/), Unive
 handheld SAR imaging. This is achieved by formulating the challenging phase error
 estimation problem as a tractable point spread function optimization problem. 
 
-- This code repository mainly includes code and sample data for generating the following result shown in the paper. 
-
-
-
+- This code repository mainly includes code and sample data for generating the following result shown in the paper.
+  
 <div align=center>
-    <img src="https://github.com/leeyadong/Radar-Gesture/blob/e26ca877818ab6af6e8c3ed8f643bcc988fb9d5b/figures/signal_processing.jpg" alt="Signal processing" width="500" />
+    <img src="https://github.com/leeyadong/PSF-Handheld-SAR-Imaging/blob/7a2f7b644c0e54b31dc67504a8a1c4e20813dc94/figures/results_ce.jpg" alt="results" width="500" />
 </div>
 
 
