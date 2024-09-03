@@ -9,6 +9,11 @@ Affiliation: [Intelligent Perception Lab](https://ustc-ip-lab.github.io/), Unive
 ![System Overview](figures/overview_tmc.jpg)
 
 ## Introduction
+
+- Here, we report a portable, affordable, and high-resolution 3D mmWave imaging system by overcoming the destructive motion error of
+handheld SAR imaging. This is achieved by formulating the challenging phase error
+estimation problem as a tractable point spread function optimization problem. 
+
 - This code repository mainly includes two parts described in the paper:
 
   - **Signal Processing:** Pre-processing the raw FMCW signal to get the dynamic range angle image (DRAI).  
@@ -33,28 +38,21 @@ The [USTC IP Lab](https://ustc-ip-lab.github.io/) has particular protocols for r
 ## Run Demo
 
 ## Citing
-If you find this code useful for your research, please consider citing the following papers:
+If you find this code useful for your research, please consider citing the following paper:
 ```
-@ARTICLE{9894724,
-  author={Li, Yadong and Zhang, Dongheng and Chen, Jinbo and Wan, Jinwei and Zhang, Dong and Hu, Yang and Sun, Qibin and Chen, Yan},
-  journal={IEEE Transactions on Mobile Computing}, 
-  title={Towards Domain-Independent and Real-Time Gesture Recognition Using mmWave Signal}, 
-  year={2023},
-  volume={22},
-  number={12},
-  pages={7355-7369},
-  doi={10.1109/TMC.2022.3207570}}
+@Article{Li2024,
+author={Li, Yadong and Zhang, Dongheng and Geng, Ruixu and Lu, Zhi and Wu, Zhi and Hu, Yang and Sun, Qibin and Chen, Yan},
+title={A high-resolution handheld millimeter-wave imaging system with phase error estimation and compensation},
+journal={Communications Engineering},
+year={2024},
+month={Jan},
+day={05},
+volume={3},
+number={1},
+pages={4},
+issn={2731-3395},
+doi={10.1038/s44172-023-00156-2},
+url={https://doi.org/10.1038/s44172-023-00156-2}
+}
+```
 
-```
-
-```
-@INPROCEEDINGS{10001175,
-  author={Li, Yadong and Zhang, Dongheng and Chen, Jinbo and Wan, Jinwei and Zhang, Dong and Hu, Yang and Sun, Qibin and Chen, Yan},
-  booktitle={GLOBECOM 2022 - 2022 IEEE Global Communications Conference}, 
-  title={DI-Gesture: Domain-Independent and Real-Time Gesture Recognition with Millimeter-Wave Signals}, 
-  year={2022},
-  volume={},
-  number={},
-  pages={5007-5012},
-  doi={10.1109/GLOBECOM48099.2022.10001175}}
-```
