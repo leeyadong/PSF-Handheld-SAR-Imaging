@@ -1,4 +1,4 @@
-# Handheld mmWave SAR Imaging with PSF Optiminization
+# Handheld mmWave SAR Imaging with PSF Optimization
 
 ## Code repository for the paper: A High-resolution Handheld millimeter-wave Imaging System with Phase Error Estimation and Compensation, Comms. Eng., 2024.
 
@@ -12,9 +12,11 @@ Affiliation: [Intelligent Perception Lab](https://ustc-ip-lab.github.io/), Unive
 
 - Here, we report a portable, affordable, and high-resolution 3D mmWave imaging system by overcoming the destructive motion error of
 handheld SAR imaging. This is achieved by formulating the challenging phase error
-estimation problem as a tractable point spread function optimization problem. 
+estimation problem as a tractable point spread function (PSF) optimization problem. 
 
-- This code repository mainly includes code and sample data for generating the following result shown in the paper.
+- This repository includes code for pre-processing, phase error estimation with PSF optimization, and Range Migration Algorithm (RMA).
+  
+- This repository provides sample data for generating the following result shown in the paper.
   
 <div align=center>
     <img src="https://github.com/leeyadong/PSF-Handheld-SAR-Imaging/blob/7a2f7b644c0e54b31dc67504a8a1c4e20813dc94/figures/results_ce.jpg" alt="results" width="600" />
