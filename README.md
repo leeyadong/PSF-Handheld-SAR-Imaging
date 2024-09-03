@@ -6,7 +6,7 @@ Authors: [Yadong Li](https://yadongli.com), [Dongheng Zhang](http://staff.ustc.e
 
 Affiliation: [Intelligent Perception Lab](https://ustc-ip-lab.github.io/), University of Science and Technology of China. [Paper Link](https://www.nature.com/articles/s44172-023-00156-2)
 
-![System Overview](figures/overview_tmc.jpg)
+![System Overview](https://github.com/leeyadong/PSF-Handheld-SAR-Imaging/blob/9652f1c63327bcb66d3d40a90ea3d6ed4ac8ea6d/figures/overview_ce.jpg)
 
 ## Introduction
 
@@ -14,20 +14,14 @@ Affiliation: [Intelligent Perception Lab](https://ustc-ip-lab.github.io/), Unive
 handheld SAR imaging. This is achieved by formulating the challenging phase error
 estimation problem as a tractable point spread function optimization problem. 
 
-- This code repository mainly includes two parts described in the paper:
+- This code repository mainly includes code and sample data for generating the following result shown in the paper. 
 
-  - **Signal Processing:** Pre-processing the raw FMCW signal to get the dynamic range angle image (DRAI).  
 
-  - **Deep Learning:** A CNN-LSTM neural network that inputs DRAI and outputs gesture labels. 
-
-- The code can be used to support other similar applications using wireless signals.
 
 <div align=center>
     <img src="https://github.com/leeyadong/Radar-Gesture/blob/e26ca877818ab6af6e8c3ed8f643bcc988fb9d5b/figures/signal_processing.jpg" alt="Signal processing" width="500" />
 </div>
-<div align=center>
-    <img src=https://github.com/leeyadong/Radar-Gesture/blob/e7d5a89eecf1d3567d40f1e1b7a145a49d02c746/figures/neural_network.jpg alt="Neural Network" width="500" />
-</div>
+
 
 ## How to Access the Code
 
