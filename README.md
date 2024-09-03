@@ -17,7 +17,7 @@ estimation problem as a tractable point spread function optimization problem.
 - This code repository mainly includes code and sample data for generating the following result shown in the paper.
   
 <div align=center>
-    <img src="https://github.com/leeyadong/PSF-Handheld-SAR-Imaging/blob/7a2f7b644c0e54b31dc67504a8a1c4e20813dc94/figures/results_ce.jpg" alt="results" width="500" />
+    <img src="https://github.com/leeyadong/PSF-Handheld-SAR-Imaging/blob/7a2f7b644c0e54b31dc67504a8a1c4e20813dc94/figures/results_ce.jpg" alt="results" width="600" />
 </div>
 
 
