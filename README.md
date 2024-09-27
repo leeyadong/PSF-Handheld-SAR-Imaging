@@ -25,11 +25,16 @@ estimation problem as a tractable point spread function (PSF) optimization probl
 
 ## How to Access the Code
 
-The [USTC IP Lab](https://ustc-ip-lab.github.io/) has particular protocols for releasing the code and dataset. To access the code, please sign the [agreement](datasetAgreement.pdf), scan and send it to yadongli@mail.ustc.edu.cn or yadongli@uw.edu. A notification email that includes the code will be sent within three days.
-
-## Installation and Setup
+The [USTC IP Lab](https://ustc-ip-lab.github.io/) has particular protocols for releasing the code and dataset. To access the code, please sign the [code agreement](IPLabCodeAgreementPSF.pdf), scan and send it to yadongli@mail.ustc.edu.cn or yadongli@uw.edu. A notification email that includes the code will be sent within three days.
 
 ## Run Demo
+```
+pip install matplotlib hdf5storage numpy scipy
+```
+set the file path in demo.py
+```
+python demo.py
+```
 
 ## Citing
 If you find this code useful for your research, please consider citing the following paper:
